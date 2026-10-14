@@ -18,7 +18,7 @@ La variante D (un_contre_tous) juge chaque source contre les croyances des autre
 import math
 from collections import defaultdict
 
-from temoins import Systeme
+from base import Systeme
 
 
 class Pesee(Systeme):

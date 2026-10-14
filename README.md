@@ -19,6 +19,8 @@ Ce dépôt ne constitue pas GrandNexus v6.4 complet. Il explore un organe spéci
 - `soupcon.py` : soupçon localisé ;
 - `meprise.py` : formes d’erreurs ;
 - `reponse.py` : réponse avec confiance, doutes et justification ;
+- `base.py` : types minimaux et composition des chaînes de raisonnement ;
+- `coherence.py` : contraintes déclarées C1/C2/C3, avec `Coherence3` et compatibilité `Coherence2` ;
 - `monde.py` : générateur de mondes synthétiques ;
 - `evaluer.py` : évaluation et intervalles en grappes ;
 - `CHARTE.md` et `HYPOTHESES.md` : protocole et registre expérimental.
@@ -36,6 +38,7 @@ python3 evaluer.py
 python3 test_echo.py
 python3 test_echo_menteur.py
 python3 test_filiation_v2.py echo
+python3 test_noyau_compact.py
 ```
 
 Certaines campagnes sont longues et certaines nécessitent des arguments ; voir les docstrings et `LISEZMOI.md`.
