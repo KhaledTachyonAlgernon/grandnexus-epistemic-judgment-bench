@@ -9,7 +9,7 @@ Aucun score fusionné. Le lecteur reçoit :
 - une justification courte (3 énoncés de plus forte contribution, fidèle à 99 % en suffisance, H-Fidélité) ;
 - les hypothèses structurelles appliquées à ce fait (copies, soupçons).
 """
-from test_fidelite import contributions
+from base import contributions
 
 SEUIL_PREUVES = 0.9
 
